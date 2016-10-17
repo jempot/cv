@@ -122,6 +122,29 @@ $banner-height: 500px;
 }
 
 
+.about-picture {
+	position: relative;
+	.pic-circle {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		text-align: center;
+		z-index: 1;
+	}
+	.pic-picture {
+		position: absolute;
+		top: 37px;
+		left: 0px;
+		text-align: center;
+		z-index: 2;
+		img {
+			@include round(50%);
+			width: 72%;
+		}
+	}
+}
+
+
 
 
 
